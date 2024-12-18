@@ -1,0 +1,18 @@
+.footer-page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.footer-page h3{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    justify-content: center;
+    color:  #292929d2;   
+}

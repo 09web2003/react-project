@@ -1,0 +1,81 @@
+.grp{
+    width: 100%;
+    height: fit-content;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.grp-name{
+    min-width: 3rem;
+    max-width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    font-family: "Roboto";
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.grp span{
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 2rem;
+}
+
+@media (min-width:426px)and (max-width:768px){
+    .grp-name{
+        min-width: 2.5rem;
+        max-width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    .grp span{
+        font-size: 1.2rem;
+        left: 6rem;
+        text-transform: capitalize;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 961px){
+    .grp-name{
+        min-width: 2.5rem;
+        max-width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    .grp span{
+        font-size: 1.2rem;
+        left: 6rem;
+        text-transform: capitalize;
+    }
+}
+
+@media(min-width: 1025px) and (max-width: 1440px){
+    .grp-name{
+        min-width: 2.5rem;
+        max-width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    .grp span{
+        font-size: 1.2rem;
+        left: 6rem;
+        text-transform: capitalize;
+    }
+}
